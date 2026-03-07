@@ -1,0 +1,42 @@
+.navbar-brand{
+    font-size: 1.7em;
+    font-weight: bold;
+    color: #333 !important;
+}
+
+@media (min-width: 768px) {
+    #myNavbar{
+        background-color: #dcdcdc;
+        width: 100%;
+        margin: 0;
+    }
+
+    .navbar-bar > li > a{
+        text-align: center;
+        color: #000 !important; 
+        border-bottom: 1px solid #bfbfbf;
+    }
+
+    .navbar-nav > li > a:hover{
+        background-color: #c0c0c0 !important;
+    }
+}
+
+.menu-box{
+    background-color: #999999;
+    padding: 15px;
+    margin-bottom: 20px;
+    min-height: 1000px;
+    border:  1px solid #333;
+    
+}
+
+.menu-box h3{
+    font-weight: bold;
+    margin-top: 0;
+}
+
+h1{
+    margin-bottom:  30px;
+    font-weight: 700 !important;
+}
